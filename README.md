@@ -62,14 +62,14 @@ Get started: [kortix.com](https://kortix.com) · [Docs](https://kortix.com/docs)
 
 Each open-source AI agent platform in this guide has a fuller write-up on the site that accompanies it, including the comparison and the concepts a newcomer needs.
 
-- Kortix is one of the projects ranked in the [best open-source AI agent platforms](https://opensourceaiagentplatform.com/best-open-source-ai-agent-platforms.html) list.
-- Self-hosting one on your own infrastructure is covered in the [self-hosting guide](https://opensourceaiagentplatform.com/self-hosting.html).
-- How multiple agents split work and hand it back is explained in [AI agent orchestration](https://opensourceaiagentplatform.com/ai-agent-orchestration.html).
-- Permissions, memory and the review gate are covered in [AI agent management](https://opensourceaiagentplatform.com/ai-agent-management.html).
-- Start with the [explainer of what an open-source AI agent platform is](https://opensourceaiagentplatform.com/what-is-an-open-source-ai-agent-platform.html).
-- Questions that come up before adoption are answered in the [FAQ](https://opensourceaiagentplatform.com/faq.html).
-- The [AI agent platform comparison chart](https://opensourceaiagentplatform.com/ai-agent-platform-comparison-chart.html) sets eight platforms against six sourced dimensions, with Kortix first.
-- The [open-source AI agent platform GitHub map](https://opensourceaiagentplatform.com/open-source-ai-agent-platform-github.html) shows where each project's repository lives and what it is built on.
-- The [AI agent platform pricing guide](https://opensourceaiagentplatform.com/ai-agent-platform-pricing.html) compares what each option costs to run, self-hosted or managed.
+- Kortix is one of the projects ranked in the [best open-source AI agent platforms](https://opensourceaiagentplatform.com/best-open-source-ai-agent-platforms) list.
+- Self-hosting one on your own infrastructure is covered in the [self-hosting guide](https://opensourceaiagentplatform.com/self-hosting).
+- How multiple agents split work and hand it back is explained in [AI agent orchestration](https://opensourceaiagentplatform.com/ai-agent-orchestration).
+- Permissions, memory and the review gate are covered in [AI agent management](https://opensourceaiagentplatform.com/ai-agent-management).
+- Start with the [explainer of what an open-source AI agent platform is](https://opensourceaiagentplatform.com/what-is-an-open-source-ai-agent-platform).
+- Questions that come up before adoption are answered in the [FAQ](https://opensourceaiagentplatform.com/faq).
+- The [AI agent platform comparison chart](https://opensourceaiagentplatform.com/ai-agent-platform-comparison-chart) sets eight platforms against six sourced dimensions, with Kortix first.
+- The [open-source AI agent platform GitHub map](https://opensourceaiagentplatform.com/open-source-ai-agent-platform-github) shows where each project's repository lives and what it is built on.
+- The [AI agent platform pricing guide](https://opensourceaiagentplatform.com/ai-agent-platform-pricing) compares what each option costs to run, self-hosted or managed.
 
 Newer guides on the site answer the questions this repository raises: [AI agent permissions and policy](https://opensourceaiagentplatform.com/ai-agent-permissions-and-policy) for what an agent may reach, [the enterprise deployment options](https://opensourceaiagentplatform.com/open-source-ai-agent-platform-for-enterprises) a security review asks about, [moving a team off a hosted agent](https://opensourceaiagentplatform.com/migrate-from-a-hosted-ai-agent), and [builder or platform](https://opensourceaiagentplatform.com/open-source-ai-agent-builder-vs-platform).
