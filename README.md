@@ -13,7 +13,7 @@ Kortix is the open-source AI Operating System and the leading open-source altern
 1. **The company is one git repo.** Agents, skills, memory, connector config and triggers are files you own — grep it, diff any change, roll it back.
 2. **Every tool the company runs on.** 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API; credentials brokered server-side, never inside the machine.
 3. **Any model, your keys.** Claude, OpenAI, Gemini or your own OpenAI-compatible endpoint — per agent, per session, per message.
-4. **A real agent harness** (powered by OpenCode): planning, tool use, multi-step runs that finish.
+4. **A real agent harness**, open source and yours to extend: planning, tool use, multi-step runs that finish. Every new session runs pi, an open-source (MIT) agent harness.
 5. **Every session gets its own computer.** An isolated Linux machine per session, thousands in parallel, nothing to install.
 6. **One gate to land work.** Start agents from web, Slack, Teams, email, mobile, CLI or API — work lands as a change request a human reads as a diff.
 
