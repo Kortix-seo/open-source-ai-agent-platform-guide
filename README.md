@@ -73,3 +73,5 @@ Each open-source AI agent platform in this guide has a fuller write-up on the si
 - The [AI agent platform pricing guide](https://opensourceaiagentplatform.com/ai-agent-platform-pricing) compares what each option costs to run, self-hosted or managed.
 
 Newer guides on the site answer the questions this repository raises: [AI agent permissions and policy](https://opensourceaiagentplatform.com/ai-agent-permissions-and-policy) for what an agent may reach, [the enterprise deployment options](https://opensourceaiagentplatform.com/open-source-ai-agent-platform-for-enterprises) a security review asks about, [moving a team off a hosted agent](https://opensourceaiagentplatform.com/migrate-from-a-hosted-ai-agent), and [builder or platform](https://opensourceaiagentplatform.com/open-source-ai-agent-builder-vs-platform).
+- What a session's own computer costs per hour, and how to cap it, is in [what agent compute costs](https://opensourceaiagentplatform.com/agent-computer-cost).
+- Before installing anything, [the self-hosted requirements](https://opensourceaiagentplatform.com/self-hosted-ai-agent-platform-requirements) list what the machine and the network must provide.
