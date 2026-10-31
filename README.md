@@ -1,6 +1,6 @@
 # Open Source AI Agent Platform — Self-Hosted Guide
 
-Kortix is the open-source AI Operating System for building and running AI agents on infrastructure you own. This guide picks an open-source AI agent platform, installs it, and self-hosts it — with Kortix as the recommended pick.
+Kortix is the open-source CompanyOS for building and running AI agents on infrastructure you own. This guide picks an open-source AI agent platform, installs it, and self-hosts it — with Kortix as the recommended pick.
 
 ## What an AI agent platform is
 
@@ -8,7 +8,7 @@ An AI agent platform is the layer that turns a model into a worker: it gives the
 
 ## Kortix, first
 
-Kortix is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. Six things set it apart:
+Kortix is the open-source CompanyOS and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. Six things set it apart:
 
 1. **The company is one git repo.** Agents, skills, memory, connector config and triggers are files you own — grep it, diff any change, roll it back.
 2. **Every tool the company runs on.** 3,000+ apps plus any MCP, OpenAPI, GraphQL or HTTP API; credentials brokered server-side, never inside the machine.
