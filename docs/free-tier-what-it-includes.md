@@ -15,22 +15,28 @@ The [pricing page](https://kortix.com/pricing) lists four things, checked Octobe
 
 The grant renews monthly, so nothing expires and no trial clock runs out. What ends with the month is capacity, not access. People on the account share one credit pool, and adding a person does not add a line to the bill.
 
-A project is one `kortix.yaml` plus the files around it. The starter manifest fits on a screen: a schema version, a default agent, the project name, five tools every agent inherits, a triggers block.
+A project is one `kortix.yaml` plus the files around it. The starter manifest fits on a screen: the project name, one default agent, and the grants that agent holds.
 
 ```yaml
-kortix_version: 2
-default_agent: kortix
-
+# yaml-language-server: $schema=https://kortix.com/schema/kortix.schema.json
 project:
   name: "{{projectName}}"
   description: A Kortix project.
 
-tools:
-  web_search: kortix:web_search
-  image_search: kortix:image_search
-  scrape_webpage: kortix:scrape_webpage
-  memory: kortix:memory
-  show: kortix:show
+default_agent: worker
+
+agents:
+  worker:
+    description: "General-purpose worker: coding, research, writing, ops and data work, done end to end in its own sandbox."
+    mode: primary
+    permission: allow
+    prompt_file: agents/worker.md
+    tools: all
+    skills: all
+    connectors: all
+    secrets: all
+    kortix_permissions: all
+    workspace: { project_repository: true }
 ```
 
 Credits buy the agent computer, the cloud machine that runs the agent's code, browses and edits files. Its shape is 2 vCPU, 4 GB of memory and 20 GB of disk, billed per second and free while stopped. One credit is $0.01, so eleven credits buy an hour, and the page states the short form as about five minutes per credit. Model calls sit on a second meter. Your own keys send model spend straight to your provider. The first $1,000 a month passes through with no fee, and 5% above that comes out of credits. A connected ChatGPT subscription spends no credits at all. Kortix's own models cost the provider's base price plus 5.5%, out of the same pool.
@@ -41,16 +47,17 @@ The manifest is where a free allowance quietly leaks. A trigger starts a session
 
 ```yaml
 triggers:
-  - slug: harness-reflector
-    name: Harness reflector
-    type: cron
-    agent: harness-reflector
-    enabled: false
-    cron: "0 0 3 * * *" # 03:00 daily
-    timezone: UTC
+  - slug: weekly-report
+    name: Weekly report
+    on:
+      cron: "0 0 9 * * 1"
+    timezone: Europe/Berlin
+    run:
+      agent: worker
+      prompt: Write the weekly report for the last 7 days.
 ```
 
-The starter ships that trigger switched off, and the comment beside it gives the reason: every run creates a sandbox. Take a 15-minute run at the published rate. That is 2.75 credits, or 83 credits across 30 days, close to a sixth of the free month spent by a job nobody watches. A second daily trigger of the same length commits another sixth. Two of them take a third of the allowance before a person starts any work.
+The starter ships no trigger at all. A trigger you add is what spends credits while nobody watches, because every run creates a sandbox. Take a 15-minute run at the published rate. That is 2.75 credits, or 83 credits across 30 days, close to a sixth of the free month spent by a job nobody watches. A second daily trigger of the same length commits another sixth. Two of them take a third of the allowance before a person starts any work.
 
 Session length moves the same number at smaller scale. A 25-minute session is 4.6 credits and a 90-minute session is 16.5, so one task in a different shape costs three times the capacity. So the useful question about a free plan is how long sessions run and what fires without you.
 
