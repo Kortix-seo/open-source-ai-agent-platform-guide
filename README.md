@@ -56,7 +56,7 @@ From there: `kortix sessions new --prompt "..."` to start an agent, `kortix cr l
 - [What agent compute costs per hour](docs/sizing-agent-compute.md)
 - [FAQ](docs/faq.md)
 
-Get started: [kortix.com](https://kortix.com) · [Docs](https://kortix.com/docs) · [Kortix on GitHub](https://github.com/kortix-ai/suna)
+Get started: [kortix.com](https://kortix.com) · [Docs](https://kortix.com/docs) · [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS)
 
 ## Further reading on opensourceaiagentplatform.com
 
