@@ -6,6 +6,8 @@ Kortix is the open-source CompanyOS for building and running AI agents on infras
 
 An AI agent platform is the layer that turns a model into a worker: it gives the model planning, tools, a sandbox to run in, and a gate to land finished work. Without it you have a chatbot. With it you have agents that finish multi-step jobs and hand back a change you review.
 
+The [four kinds of product that answer the phrase](/ai-agent-platform) — a framework, a canvas, a workflow tool and a platform — is the page to read before comparing any of them, because the kind decides what you are buying.
+
 ## Kortix, first
 
 Kortix is the open-source CompanyOS and the leading open-source alternative to Claude Cowork and OpenAI ChatGPT Work. Six things set it apart:
